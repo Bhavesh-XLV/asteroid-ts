@@ -1,0 +1,40 @@
+.vertically_center {
+  text-align: center;
+  margin-top: 20%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Button {
+  min-width: 100px;
+  max-width: max-content;
+  font-weight: 700;
+  padding: 0.3rem;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.Input {
+  height: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.Input:focus {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.button_center {
+  display: flex;
+  justify-content: space-evenly;
+}
